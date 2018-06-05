@@ -1,0 +1,40 @@
+{
+  "name": "is-in-container",
+  "version": "1.0.0",
+  "description": "Detect if current process is running in container, e.g. docker, lxc, etc., or not.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dist": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/innopals/is-in-container.git"
+  },
+  "keywords": [
+    "detect",
+    "process",
+    "container",
+    "docker",
+    "lxc",
+    "nodejs"
+  ],
+  "author": "bestmike007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/innopals/is-in-container/issues"
+  },
+  "homepage": "https://github.com/innopals/is-in-container#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    "LICENSE",
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.3.1",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.1"
+  }
+}
